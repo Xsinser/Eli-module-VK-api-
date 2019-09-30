@@ -24,5 +24,10 @@ namespace Eli_modul__VK_api_
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
