@@ -19,7 +19,7 @@ using VkNet.Abstractions;
 using VkNet.AudioBypassService.Extensions;
 using VkNet.Model;
 using VkNet.Model.RequestParams;
-
+using System.Data.SQLite;
 namespace Eli_modul__VK_api_
 {
     /// <summary>
@@ -31,9 +31,12 @@ namespace Eli_modul__VK_api_
         {
             InitializeComponent();
         }
-
+  
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+
+            SNchecker sn = new SNchecker();
+            sn.Check();
 
 
         }
