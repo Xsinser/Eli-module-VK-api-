@@ -13,6 +13,6 @@ namespace Eli_modul__VK_api_
     /// </summary>
     public partial class App : Application
     {
-        SNmain snmain = new VKCheck();
+         
     }
 }
