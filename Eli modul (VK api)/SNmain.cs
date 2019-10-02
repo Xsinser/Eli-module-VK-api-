@@ -24,6 +24,7 @@ namespace Eli_modul__VK_api_
         public void Informing(string countM,string typeSN)
         {
             SpeechSynthesizer synthesizer = new SpeechSynthesizer();
+
             synthesizer.Volume = 100;
             synthesizer.Rate = 0;
             synthesizer.Speak($"У вас обнаружено {countM} не прочитанное сообщение в {typeSN}");
